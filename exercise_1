@@ -1,0 +1,28 @@
+#Question 1
+# #We’ve seen that n = 42 is legal. What about 42 = n?
+n = 42
+#42 = n
+# #variable name should not start with number. so we can't use this type of expression
+
+#question2
+# How about x = y = 1?
+
+x=y=1
+print(x)
+print (y)
+
+#Question 3
+#In some languages every statement ends with a semi-colon, ;. What happens if you put a
+# semi-colon at the end of a Python statement?
+print (y); #no error while executing this line
+
+#What if you put a period at the end of a statement?
+
+#print (y). #syntax error for this statement
+
+#In math notation you can multiply x and y like this: xy. What happens if you try that in Python?
+
+a=3
+b=2
+#print (ab) #ab is forming a string, error statement as ab is notdefined
+print (a*b)
